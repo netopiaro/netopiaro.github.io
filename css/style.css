@@ -1086,6 +1086,7 @@ header p.lead {
   margin-bottom: 18px;
   display: flex;
   align-items: center;
+  text-decoration: underline;
 }
 
 .portfolio .project-card .body .title img:hover {

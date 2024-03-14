@@ -208,66 +208,10 @@
           </ul>
         </div>
       </section>
-
-      <section class="dark investment-approach" id="more">
-        <div class="container narrow text-center">
-          <header>
-            <hr />
-            <p>Our Investment Approach</p>
-          </header>
-        </div>
-      </section>
-
-      <section class="portfolio">
-        <div class="container">
-          <ul class="grid">
-            <li class="project-card">
-              <div class="wrapper">
-                <div class="body">
-                  <a target="_blank" href="https://netopia.ventures/">
-                    <h4 class="title">
-                      NETOPIA Ventures&nbsp;<img
-                        width="12"
-                        height="100%"
-                        src="img/right-arrow.png"
-                      />
-                    </h4>
-                  </a>
-                  <p>
-                    We are casting a bright light over the Romanian business
-                    landscape, looking for passion, innovation, and willingness
-                    to truly work hard. We seek entrepreneurs with a clear
-                    vision and intent to disrupt through innovation. We will
-                    always support people with a leader mindset. We will always
-                    invest in those who want to see their name next to Jony Ive,
-                    Steve Jobs or Larry Page.
-                  </p>
-                </div>
-
-                <div class="cover">
-                  <img
-                    src="img/projects/netopiaVentures.jpg"
-                    alt="NETOPIA Ventures"
-                  />
-                </div>
-
-                <div class="headlines">
-                  <ul>
-                    <li>we are not limited by budget</li>
-                    <li>we are not limited by your business know-how</li>
-                    <li>you can impress us with ideas</li>
-                    <li>8 ideas were started with help from us</li>
-                  </ul>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
     </main>
 
     <footer class="main-footer">
-      <p>NETOPIA Group. All Rights Reserved. © 2023</p>
+      <p>NETOPIA Group. All Rights Reserved. © <span id="year"></span></p>
     </footer>
 
     <!-- Meta Pixel Code -->
@@ -306,5 +250,9 @@
         src="https://www.facebook.com/tr?id=703376844215163&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Meta Pixel Code -->
+
+    <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+      </script>
   </body>
 </html>
