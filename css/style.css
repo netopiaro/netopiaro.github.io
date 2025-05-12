@@ -1000,6 +1000,10 @@ header p.lead {
   font-size: 12px;
 }
 
+.main-footer a {
+  color: white;
+}
+
 .investment-approach {
   padding-top: 160px;
   padding-bottom: 190px;
